@@ -32,7 +32,7 @@ export const Route = createRootRoute({
     links: [
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://testing-vercel-eight-tau.vercel.app/assets/global-Bcsgv6zy.css",
       },
       {
         rel: "icon",
