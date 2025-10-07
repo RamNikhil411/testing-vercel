@@ -8,7 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import type { ReactNode } from "react";
-import appCss from "global.css?url";
+import "global.css";
 import CreateFormContext from "@/context/formContext";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/sonner";
@@ -30,10 +30,10 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      // {
+      //   rel: "stylesheet",
+      //   href: appCss,
+      // },
       {
         rel: "icon",
         href: Favicon,
