@@ -15,8 +15,6 @@ export default defineConfig({
     tsConfigPaths(),
     tanstackStart(),
     react(),
-    nitroV2Plugin({
-      preset: "vercel",
-    }),
+    nitroV2Plugin(),
   ],
 });
